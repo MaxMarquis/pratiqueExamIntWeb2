@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Programmé par: Maxim Marquis -->
+<!-- Dernière modification: 2021-06-22 -->
+<html lang="fr-ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <title>Javelin</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="container-fluid banner">
+        <nav class="navbar navbar-expand-lg monMenu">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./images/Jevelin-logov1.png" alt="Javelin Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="monMenu__liens" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="monMenu__liens dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Style
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Masonry + Sidebar</a>
+                                <a class="dropdown-item" href="#">Masonry + Full width</a>
+                                <a class="dropdown-item" href="#">From Side to Side + Slider</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="monMenu__liens" href="#">People</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="monMenu__liens" href="#">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="monMenu__liens" href="#">Travel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="monMenu__liens" href="#">Commercial</a>
+                        </li>
+                        <li class="">
+                            <a href="#"><i class="monMenu__icons icon-magnifier"></i></a>
+                            <a href="https://twitter.com/"><i class="monMenu__icons icon-social-twitter"></i></a>
+                            <a href="https://www.facebook.com/"><i class="monMenu__icons icon-social-facebook"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Bannière -->
+        <div class="container home">
+            <h1 class="text-center home__title">Home</h1>
+            <p class="text-center home__text">Masonry + boxel layout</p>
+        </div>
+    </div>
+    <!-- Catégories -->
+    <div class="container ">
+        <ul class="categories">
+            <li><button type="button" class="btn btn-cate">All</button></li>
+            <li><button type="button" class="btn btn-cate">Commercial</button></li>
+            <li><button type="button" class="btn btn-cate">Design</button></li>
+            <li><button type="button" class="btn btn-cate">Nature</button></li>
+            <li><button type="button" class="btn btn-cate">People</button></li>
+            <li><button type="button" class="btn btn-cate">Photography</button></li>
+            <li><button type="button" class="btn btn-cate">Tech</button></li>
+            <li><button type="button" class="btn btn-cate">Travel</button></li>
+            <li><button type="button" class="btn btn-cate">Uncategorized</button></li>
+        </ul>
+    </div>
+
+    <!-- Galerie -->
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-6">
+                        <!-- Article 1 -->
+                        <div class="card">
+                            <img class="card-img-top" src="./images/article1.jpg" alt="article 1">
+                            <div class="card-body">
+                                <p class="card-text">by shufflehound <span class="pl-3">November 23, 2016</span></p>
+                                <h5 class="card-title">Trip that you'll never forget</h5>
+                                <p class="card-text">Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam
+                                    erat
+                                    volutpat. Quisque at finibus dui. Praesent</p>
+                                <hr>
+                                <p class="card-text">PEOPLE, TRAVEL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- Article 2 -->
+                        <div class="card">
+                            <img class="card-img-top" src="./images/article2.jpg" alt="article 2">
+                            <div class="card-body">
+                                <p class="card-text">by shufflehound <span class="pl-3">November 23, 2016</span></p>
+                                <h5 class="card-title">Must-have gear</h5>
+                                <p class="card-text">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis,
+                                    vitae vehicula lectus tincidunt. Nulla placerat…</p>
+                                <hr>
+                                <p class="card-text">PHOTOGRAPHY, TECH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- Article 3 -->
+                        <div class="card">
+                            <img class="card-img-top" src="./images/article3.jpg" alt="article 3">
+                            <div class="card-body">
+                                <p class="card-text">by shufflehound <span class="pl-3">November 23, 2016</span></p>
+                                <h5 class="card-title">Movielike photo shoot – B&W</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+                                    eros scelerisque, scelerisque nisl sit amet, molestie…</p>
+                                <hr>
+                                <p class="card-text">DESIGN, PHOTOGRAPHY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <!-- Article 4 -->
+                        <div class="card">
+                            <img class="card-img-top" src="./images/article4.jpg" alt="article 4">
+                            <div class="card-body">
+                                <p class="card-text">by shufflehound <span class="pl-3">November 23, 2016</span></p>
+                                <h5 class="card-title">Craftsmen at work</h5>
+                                <p class="card-text">Morbi eu ante mollis, elementum tortor in, hendrerit libero.
+                                    Maecenas feugiat rhoncus magna, at consequat libero dictum…</p>
+                                <hr>
+                                <p class="card-text">PEOPLE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <h3>Latest posts</h3>
+                <!-- New Article 1 -->
+                <div class="row news">
+                    <div class="col-4">
+                        <img class="news__img d-block" src="./images/article1.jpg" alt="article 1">
+                        <span class="count">15</span>
+                    </div>
+                    <div class="col-8">
+                        <p class="news__categories">PEOPLE, TRAVEL</p>
+                        <h6 class="news__categories">Trip that you'll never forget</h6>
+                    </div>
+                </div>
+                <hr>
+                <!-- New Article 2 -->
+                <div class="row news">
+                    <div class="col-4">
+                        <img class="news__img d-block" src="./images/article2.jpg" alt="article 2">
+                        <span class="count">9</span>
+                    </div>
+                    <div class="col-8">
+                        <p class="news__categories">PEOPLE, TRAVEL</p>
+                        <h6 class="news__categories">Trip that you'll never forget</h6>
+                    </div>
+                </div>
+                <hr>
+                <!-- New Article 3 -->
+                <div class="row news">
+                    <div class="col-4">
+                        <img class="news__img d-block" src="./images/article3.jpg" alt="article 3">
+                        <span class="count">5</span>
+                    </div>
+                    <div class="col-8">
+                        <p class="news__categories">PEOPLE, TRAVEL</p>
+                        <h6 class="news__categories">Trip that you'll never forget</h6>
+                    </div>
+                </div>
+                <hr>
+                <!-- New Article 4 -->
+                <div class="row news">
+                    <div class="col-4">
+                        <img class="news__img d-block" src="./images/article4.jpg" alt="article 4">
+                        <span class="count">2</span>
+                    </div>
+                    <div class="col-8">
+                        <p class="news__categories">PEOPLE, TRAVEL</p>
+                        <h6 class="news__categories">Trip that you'll never forget</h6>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Publicitées -->
+    <!-- Pied de page -->
+
+    <!-- <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
