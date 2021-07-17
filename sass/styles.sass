@@ -1,7 +1,9 @@
+$couleurPrinci: #47c9e5
+$couleurTexte: #fff
+
 ul
     text-align: center
-    color: black
-
+    color: #000
 li
     list-style-type: none
     display: inline-block
@@ -14,8 +16,8 @@ li
     margin: 3.2rem 0.4rem
 
 .btn-cate:hover
-    background-color: #47c9e5
-    color: #fff
+    background-color: $couleurPrinci
+    color: $couleurTexte
     border-radius: 2rem
     border: 1px solid #e6e6e6
 
@@ -27,9 +29,6 @@ li
         height: 4.6rem
     &__categories
         margin: 0
-
-.card
-    width: 25rem
 
 .banner
     background-image: url("../images/Blog_title_image.jpg")
@@ -46,27 +45,27 @@ li
         font-weight: 700
         float: left
         &:hover
-            color: #fff
+            color: $couleurTexte
             text-decoration: none
     &__icons
-        color: #fff
+        color: $couleurTexte
         margin-left: 0.5rem
 .home
     padding-top: 10rem
-    color: #fff
+    color: $couleurTexte
     &__title
         font-size: 3rem
         &::selection
-            background-color: #47c9e5
+            background-color: $couleurPrinci
     &__text
         &::selection
-            background-color: #47c9e5
+            background-color: $couleurPrinci
 .count
     top: -0.2rem
     right: 0.5rem
     position: absolute
-    background-color: #47c9e5
+    background-color: $couleurPrinci
     border-radius: 20px
     font-weight: 500
-    color: #fff
+    color: $couleurTexte
     padding: 0.01rem 0.3rem

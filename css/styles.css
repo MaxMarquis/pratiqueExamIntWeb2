@@ -1,6 +1,6 @@
 ul {
   text-align: center;
-  color: black;
+  color: #000;
 }
 
 li {
@@ -35,10 +35,6 @@ li {
 
 .news__categories {
   margin: 0;
-}
-
-.card {
-  width: 25rem;
 }
 
 .banner {
