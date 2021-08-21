@@ -222,6 +222,16 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
     <!-- <script src="js/main.js"></script> -->
+    <script>
+        // Register service worker.
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("service-worker.js").then((reg) => {
+                    console.log("Service worker registered.", reg);
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>
